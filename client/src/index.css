@@ -25,3 +25,8 @@
 .card-content .input-field .myInput:focus + label {
     color: #ffeb3b !important;
 }
+
+.nav-wrapper {
+    padding-left: 20px;
+    padding-right: 10px;
+}
