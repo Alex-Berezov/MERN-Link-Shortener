@@ -30,3 +30,13 @@
     padding-left: 20px;
     padding-right: 10px;
 }
+
+.preloader {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.LinksList {
+    margin-top: 30px;
+}
