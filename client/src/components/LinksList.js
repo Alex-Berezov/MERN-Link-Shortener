@@ -22,7 +22,7 @@ const LinksList = ({links}) => {
                 return (
                     <tr key={link._id}>
                         <td>{index + 1}</td>
-                        <td>{link.from}</td>
+                        <td className="linkTd">{link.from}</td>
                         <td>{link.to}</td>
                         <td>
                             <Link to={`/detail/${link._id}`}>Открыть</Link>
